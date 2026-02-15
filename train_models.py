@@ -16,7 +16,7 @@ import os
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv('heart_DS.csv')
+df = pd.read_csv('./Dataset/heart_DS.csv')
 print(f"Shape: {df.shape}")
 print(f"Rows: {df.shape[0]}")
 print(f"Columns: {df.shape[1]}")
