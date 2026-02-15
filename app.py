@@ -3,7 +3,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
 import pickle
 from sklearn.metrics import (
     accuracy_score, roc_auc_score, precision_score, 
@@ -14,6 +13,7 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
+import joblib
 
 
 # Page configuration
